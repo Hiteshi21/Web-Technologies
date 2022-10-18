@@ -11,10 +11,7 @@ public class ConvertString {
     // create List of lists that will store all sets of operations
     static ArrayList<ArrayList<String>> array = new ArrayList<ArrayList<String>>();
 
-    // Function to print all ways
-
-
-    // Function to compute the DP matrix
+   
     static void ChangeDP(String s1, String s2) {
         int l1 = s1.length();
         int l2 = s2.length();
@@ -155,7 +152,6 @@ public class ConvertString {
         }
     }
 
-    // Driver Code
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
